@@ -1,8 +1,10 @@
-import PreviousComponent from "./1-usePrevious/PreviousComponent"
+// import PreviousComponent from "./1-usePrevious/PreviousComponent"
+import TranslationComponent from "./3 useTranslation/TranslationComponent"
 
 function App() {
   return (
-    <PreviousComponent />
+    // <PreviousComponent />
+    <TranslationComponent />
   );
 }
 

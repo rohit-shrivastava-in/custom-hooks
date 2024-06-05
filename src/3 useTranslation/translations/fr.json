@@ -1,0 +1,7 @@
+{
+  "hi": "Bonjour",
+  "bye": "Au revoir",
+  "nested": {
+    "value": "Test in fr"
+  }
+}
