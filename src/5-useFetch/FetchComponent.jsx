@@ -12,7 +12,7 @@ export default function FetchComponent() {
   return (
     <div>
       <div>{id}</div>
-      <button onClick={() => setId(currentId => currentId + 1)}>
+      <button disabled={loading} onClick={() => setId(currentId => currentId + 1)}>
         Increment ID
       </button>
       <div>Loading: {loading.toString()}</div>
