@@ -8,7 +8,8 @@
 // import ToggleComponent from './8-useToggle/ToggleComponent'
 // import RenderCountComponent from './9-useRenderCount/RenderCountComponent'
 // import SizeComponent from './10-useSize/SizeComponent'
-import CopyToClipboardComponent from './11-useCopyToClipboard/CopyToClipboardComponent'
+// import CopyToClipboardComponent from './11-useCopyToClipboard/CopyToClipboardComponent'
+import CookieComponent from './12-useCookie/CookieComponent'
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
     // <ToggleComponent />
     // <RenderCountComponent />
     // <SizeComponent />
-    <CopyToClipboardComponent />
+    // <CopyToClipboardComponent />
+    <CookieComponent />
   );
 }
 
