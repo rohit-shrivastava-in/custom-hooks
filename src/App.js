@@ -6,7 +6,9 @@
 // import EventListenerComponent from "./6-useEventListener/EventListenerComponent"
 // import OnlineStatusComponent from './7-useOnlineStatus/OnlineStatusComponent'
 // import ToggleComponent from './8-useToggle/ToggleComponent'
-import RenderCountComponent from './9-useRenderCount/RenderCountComponent'
+// import RenderCountComponent from './9-useRenderCount/RenderCountComponent'
+// import SizeComponent from './10-useSize/SizeComponent'
+import CopyToClipboardComponent from './11-useCopyToClipboard/CopyToClipboardComponent'
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
     // <EventListenerComponent />
     // <OnlineStatusComponent />
     // <ToggleComponent />
-    <RenderCountComponent />
+    // <RenderCountComponent />
+    // <SizeComponent />
+    <CopyToClipboardComponent />
   );
 }
 
