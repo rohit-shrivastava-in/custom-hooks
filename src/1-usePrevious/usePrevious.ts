@@ -1,8 +1,8 @@
 import { useRef } from "react"
 
-export default function usePrevious(value) {
+export default function usePrevious<T>(value: T): T | undefined {
   const currentRef = useRef(value)
-  const previousRef = useRef()
+  const previousRef = useRef<T>()
 
   if (currentRef.current !== value) {
     previousRef.current = currentRef.current
