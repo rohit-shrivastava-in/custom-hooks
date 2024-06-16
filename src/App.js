@@ -4,7 +4,9 @@
 // import AsyncComponent from "./4-useAsync/AsyncComponent"
 // import FetchComponent from "./5-useFetch/FetchComponent"
 // import EventListenerComponent from "./6-useEventListener/EventListenerComponent"
-import OnlineStatusComponent from './7-useOnlineStatus/OnlineStatusComponent'
+// import OnlineStatusComponent from './7-useOnlineStatus/OnlineStatusComponent'
+// import ToggleComponent from './8-useToggle/ToggleComponent'
+import RenderCountComponent from './9-useRenderCount/RenderCountComponent'
 
 function App() {
   return (
@@ -14,9 +16,9 @@ function App() {
     // <AsyncComponent />
     // <FetchComponent />
     // <EventListenerComponent />
-
-    <OnlineStatusComponent />
-
+    // <OnlineStatusComponent />
+    // <ToggleComponent />
+    <RenderCountComponent />
   );
 }
 
