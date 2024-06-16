@@ -10,7 +10,8 @@
 // import SizeComponent from './10-useSize/SizeComponent'
 // import CopyToClipboardComponent from './11-useCopyToClipboard/CopyToClipboardComponent'
 // import CookieComponent from './12-useCookie/CookieComponent'
-import GeolocationComponent from './13-useGeolocation/GeolocationComponent'
+// import GeolocationComponent from './13-useGeolocation/GeolocationComponent'
+import HoverComponent from './14-useHover/HoverComponent'
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
     // <SizeComponent />
     // <CopyToClipboardComponent />
     // <CookieComponent />
-    <GeolocationComponent />
+    // <GeolocationComponent />
+    <HoverComponent />
   );
 }
 
