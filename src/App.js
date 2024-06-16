@@ -9,7 +9,8 @@
 // import RenderCountComponent from './9-useRenderCount/RenderCountComponent'
 // import SizeComponent from './10-useSize/SizeComponent'
 // import CopyToClipboardComponent from './11-useCopyToClipboard/CopyToClipboardComponent'
-import CookieComponent from './12-useCookie/CookieComponent'
+// import CookieComponent from './12-useCookie/CookieComponent'
+import GeolocationComponent from './13-useGeolocation/GeolocationComponent'
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
     // <RenderCountComponent />
     // <SizeComponent />
     // <CopyToClipboardComponent />
-    <CookieComponent />
+    // <CookieComponent />
+    <GeolocationComponent />
   );
 }
 
